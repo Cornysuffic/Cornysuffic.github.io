@@ -98,10 +98,8 @@ footer {
 }
 
 img {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  size: 100px;
+  margin-left: auto;
+  width: 100px;
 }
 
 .sidebar {
