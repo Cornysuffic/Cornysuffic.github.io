@@ -88,6 +88,11 @@ footer {
   padding: 1rem;
 }
 
+.goalnumber .card {
+  width: 200px;
+  padding: 1rem;
+}
+
 img {
   width: 120px;
   height: 120px;
