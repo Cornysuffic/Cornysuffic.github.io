@@ -92,4 +92,12 @@ img {
   width: 120px;
   height: 120px;
   object-fit: cover;
+  align-self: flex-end;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
 }
