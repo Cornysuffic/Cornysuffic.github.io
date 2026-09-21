@@ -98,9 +98,9 @@ footer {
 }
 
 img {
-  width: 120px;
-  height: 120px;
-  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .sidebar {
