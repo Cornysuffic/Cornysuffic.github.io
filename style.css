@@ -27,21 +27,6 @@ header,
 section,
 footer {
   max-width: 900px;
-  margin: auto;
-  padding: 2rem;
-}
-
-header {
-  padding-top: 4rem;
-}
-
-h1 {
-  margin: 0;
-  font-size: 3rem;
-}
-
-h2 {
-  margin-top: 0;
 }
 
 p {
@@ -58,9 +43,6 @@ nav a:hover {
   color: var(--accent);
 }
 
-section {
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
-}
 
 .grid {
   display: grid;
