@@ -1,1 +1,1 @@
-ToDO: login, booking calendar, countdown game, 
+ToDO: login, booking calendar, countdown game, logo in header, complete nav bar, revision structure
