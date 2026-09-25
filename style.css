@@ -33,7 +33,7 @@ footer {
 
 header {
   padding-top: 4rem;
-  color: var(--fg);
+  color: var(--card);
 }
 
 h1 {
@@ -46,7 +46,7 @@ h2 {
 }
 
 p {
-  color: var(--fg);
+  color: var(--muted);
 }
 
 nav {
