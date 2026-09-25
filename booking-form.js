@@ -5,8 +5,8 @@
  
   form.addEventListener('submit', async function (e) {
     e.preventDefault(); // stop the default redirect-to-FormSubmit page
- 
-    // Bail out quietly if the honeypot was filled in (bot)
+
+        // Bail out quietly if the honeypot was filled in (bot)
     if (form._honey.value) return;
  
     status.textContent = '';

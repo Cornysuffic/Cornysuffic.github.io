@@ -95,7 +95,13 @@
   <input type="hidden" name="_subject" value="New tutoring enquiry">
   <input type="hidden" name="_captcha" value="false">
   <input type="hidden" name="_template" value="table">
- 
+
+  <!-- Honeypot: real visitors never fill this in -->
+  <div class="hp-field" aria-hidden="true">
+    <label for="hp">Leave this field empty</label>
+    <input type="text" id="hp" name="_honey" tabindex="-1" autocomplete="off">
+  </div>
+
   <div>
     <label for="name">Name</label>
     <input type="text" id="name" name="Name" required>
