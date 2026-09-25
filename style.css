@@ -33,7 +33,7 @@ footer {
 
 header {
   padding-top: 4rem;
-  color: var(--card);
+  color: var(--fg);
 }
 
 h1 {
