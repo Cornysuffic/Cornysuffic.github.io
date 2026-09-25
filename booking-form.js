@@ -4,7 +4,8 @@
   const btn = document.getElementById('submit-btn');
  
   form.addEventListener('submit', async function (e) {
-
+    e.preventDefault();
+    
     status.textContent = '';
     status.className = 'form-status';
     btn.disabled = true;
