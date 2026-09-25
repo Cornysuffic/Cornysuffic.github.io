@@ -39,6 +39,19 @@
       We support pupils from National 5 to Advanced Higher.
     </p>
   </section>
+
+  <section>
+    <h1>Our Tutors</h1>
+    <h2>Drew</h2>
+    <p>
+      I am a computational physics student at the university of edinburgh interested in maths, science and programming.
+      During my time at school I studied; Maths, Physics and Chemistry through to Advanced Higher. 
+      I have been tutoring Maths and Physics for 3 years now and have helped
+      a handful of students improve their confidence and their grades. 
+      During lessons I aim to complete as many practice questions as possible. 
+      The best way I find to prepare for exams is past paper questions. 
+    </p>
+  </section>
 -->
   <section>
     <h2>Testimonials</h2>
@@ -72,13 +85,79 @@
 
       <section id="contact">
     <h2>Initial Booking</h2>
+    </style>
+ 
+<form
+  id="booking-form"
+  class="booking-form"
+  action="https://formsubmit.co/contact@scottishtutors.co.uk"
+  method="POST"
+>
+  <!-- FormSubmit settings: no page redirect, plain subject line -->
+  <input type="hidden" name="_subject" value="New tutoring enquiry">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="table">
+ 
+  <!-- Honeypot: real visitors never fill this in -->
+  <div class="hp-field" aria-hidden="true">
+    <label for="hp">Leave this field empty</label>
+    <input type="text" id="hp" name="_honey" tabindex="-1" autocomplete="off">
+  </div>
+ 
+  <div>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="Name" required>
+  </div>
+ 
+  <div>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="Email" required>
+  </div>
+ 
+  <div class="field-row">
+    <div>
+      <label for="subject">Subject</label>
+      <select id="subject" name="Subject" required>
+        <option value="" disabled selected>Choose a subject</option>
+        <option>Maths</option>
+        <option>Physics</option>
+        <option>Other</option>
+      </select>
+    </div>
+ 
+    <div>
+      <label for="level">Level</label>
+      <select id="level" name="Level" required>
+        <option value="" disabled selected>Choose a level</option>
+        <option>National 5</option>
+        <option>Higher</option>
+        <option>Advanced Higher</option>
+      </select>
+    </div>
+  </div>
+ 
+  <div>
+    <label for="message">Tell me a bit about what you're looking for</label>
+    <textarea
+      id="message"
+      name="Message"
+      placeholder="e.g. recent grades, what you're hoping to get out of tutoring, and when you're generally free"
+      required
+    ></textarea>
+  </div>
+ 
+  <button type="submit" id="submit-btn">Send enquiry</button>
+  <p class="form-status" id="form-status" role="status"></p>
+</form>
+ 
+    <!--
     <p>
       If you are interested in getting started with Scottish Tutors 
       send an email to contact@scottishtutors.co.uk including: <br>
       name, subject of study, recent grades, goals of tutoring and availability
     <br/>
 
-    <!--
+    
     </p>
     <div id="calendar"></div>
 
@@ -99,3 +178,5 @@
 
 </body>
 </html>
+
+<script src="booking-form.js"></script>
