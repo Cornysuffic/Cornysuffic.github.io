@@ -59,6 +59,9 @@ nav a:hover {
   color: var(--accent);
 }
 
+.contact-links a {
+  margin-left: 1rem;
+}
 
 .grid {
   display: grid;
