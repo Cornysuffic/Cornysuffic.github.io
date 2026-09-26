@@ -178,6 +178,12 @@ img {
   .booking-form button:hover {
     filter: brightness(1.1);
   }
+
+  .pricing-subjects {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
  
   .booking-form button:disabled {
     opacity: 0.6;
